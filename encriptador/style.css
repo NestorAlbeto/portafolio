@@ -1,0 +1,147 @@
+body{
+  background-image: url(imagenes/fondo.png);/*insertar una imagen*/
+  background-repeat: no-repeat;/*que no se repita una imagen*/
+  overflow-y: hidden;
+}
+
+*{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  
+}
+
+.logoAlura{
+  padding-top: 10px;/*margen superior*/
+  width: 80px;/*tamaño de la imagen*/
+  margin-left: 2%; /*margn isquierdo*/ 
+  
+  
+}
+
+.logoONE{
+  padding-top: 10px;
+  width: 80px;
+  margin-left: 84%; 
+  
+}
+
+
+p{
+  color: #0d0457;
+  font-size: 80px;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  margin-left: 10%;
+}
+ 
+@keyframes slidein{
+  from{
+   
+    margin-left: 100%;
+    width: 100%;
+  }
+  to{
+    
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+
+main{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 180px;
+
+}
+
+.texArea{
+  height: 300px;
+  background: transparent; /*fondo transparente*/
+  border: none;/*sin bordes*/
+  color: #042752;
+  margin-top: 90px;
+  padding: 2px;
+  text-transform: lowercase; /*todo el texto en minusculas*/
+}
+
+::placeholder{color: #042752;/*color a las letras que aprecen el textArea*/}
+  .textArea:focus{
+    outline: none;/*que cuando pases el pulsor no resalte el cuadro*/
+  }
+
+.texAMensaje{
+  height: 500;
+  background: transparent;
+  background-image: url(imagenes/Muñeco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 24px;
+  color: #042752;
+  margin-left: 98px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+}
+
+.texAMensaje:focus{
+  outline: none;
+}
+
+.informacion{
+  color: #000a18;
+  font-size: 18px;
+}
+
+.botone{
+  display: flex;
+  margin-top: 18px;
+}
+
+.btneEncriptar{
+  background-color: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+}
+
+.btneDesencriptar{
+  background-color: #d8dfe8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+}
+
+.btncopiar{
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 120px;
+  margin-top: 100px;
+  position: absolute;
+  width: 328px;
+}
+
+.comentario {
+  margin-top: 330px;
+  color: #000a18;
+  font-size: 18px;
+}
+
+.contacto img{
+  padding-top: 10px;
+  width: 90px;
+  padding-left: 11%;
+}

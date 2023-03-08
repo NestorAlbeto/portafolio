@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="reset.css" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+            <img class="logoAlura" src="imagenes/alura.png" alt="logo de alura">
+                      
+            <img class="logoONE" src="imagenes/oracle.png" alt="logo de oracle nex education">
+            <p>Encriptador</p> 
+    </header>
+
+    <main>
+        <sectio>
+            <textarea class="texArea" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="btneEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btneDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </sectio>
+        <sectio>
+            <textarea class="texAMensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="btncopiar" onclick="copiar()">Copiar</button>
+            </div>
+            <div>
+                <h5 class="comentario">Para pegar  utilizar las teclas (Ctrl + v) ó clic derecho y pegar</h5>
+            </div>
+            
+            <div class="contacto">
+            <a title="github" href="https://github.com/NestorAlbeto?tab=repositories"><img src="imagenes/github.png" alt="logo de github"></a>
+            <a title="facebook" href="https://www.facebook.com/nestoralberto.garciapadilla.9?mibextid=ZbWKwL"><img src="imagenes/facebook.png" alt="facebook"></a>
+            <a title="instagram" href="https://www.instagram.com/nestoralbertogp/"><img src="imagenes/instagram.png" alt="instagram"></a>
+            </div>
+        </sectio>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
